@@ -1,0 +1,31 @@
+body {
+	/*background-color: #00B0AE;*/
+}
+
+
+
+.js-container {
+	text-align: center;
+}
+
+.input {
+	margin-top: 50px;
+}
+
+
+.button-choices {
+	display: inline-block;
+	width: 45%;
+}
+
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.label-style {
+	background-color: white;
+	font-size: 16px;
+}
