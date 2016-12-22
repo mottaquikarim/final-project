@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+        <title>RT GG</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- TOP MENU -->
+        <div class="ui top fixed menu inverted">
+            <div class="item">
+                <i class="fa fa-film" aria-hidden="true"></i>
+            </div>
+            <div class="item">Rotten Tomatoes Search Engine</div>
+        </div>
+        <!-- END TOP MENU -->
+        <!-- CONTENT -->
+        <div class="ui two column centered grid">
+            <div class="column">
+                <div class="ui fluid action input">
+                    <input type="text" placeholder="Enter movie title..." class="js-search">
+                    <!-- <div class="ui button black js-search">Search</div> -->
+                    <div><button class="js-search-btn ui black button">Search</button></div>
+                    <div><button class="js-reset ui green button">Clear</button></div>
+                </div>
+            </div>
+            <!-- column end -->
+        </div>
+        <div class="ui two column centered grid">
+            <div class="column">
+                <h1 class="ui horizontal divider header">
+                    <span>Guess if a movie is Rotten or Fresh?</span>
+                </h1>
+                <div class="clearfix">
+                    <div class="js-container"></div>
+                    <div class="js-button-choice"></div>
+                </div>
+            </div>
+            <!-- column end -->
+        </div>
+        <!-- END CONTENT -->
+        <!-- Code goes here... -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
